@@ -1,0 +1,230 @@
+#A {
+    height: 80px;
+    color: red;
+    background-image: linear-gradient(to top right, red, orange, yellow);
+}
+
+#B {
+    position: fixed;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 400px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+    border-radius: 7px;
+}
+
+#C {
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 400px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+    border-radius: 7px;
+}
+
+
+#AboutMan-Utd,
+#M {
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+#Trophy {
+    border-radius: 7px;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 200px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+}
+
+#F,
+#I,
+#J,
+#K,
+#L {
+    border-color: rgb(63, 52, 52);
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#PlayerProfiles {
+    font-size: 40px;
+    border-radius: 7px;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    width: 255px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+}
+
+#Goalkeepers {
+    position: sticky;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    width: 200px;
+    background-image: linear-gradient(to right, purple, rgb(185, 94, 245), rgb(98, 247, 130), rgb(56, 189, 56));
+}
+
+#Defenders,
+#Midfielders {
+    position: sticky;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    width: 180px;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+}
+
+#Forwards {
+    position: sticky;
+    font-size: 35px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    width: 150px;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+}
+
+#Body {
+    background: linear-gradient(to top left, darkred, red, orangered, orange, yellow);
+}
+
+#O,
+#P,
+#form {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+#PlayerDetails {
+    font-family: cursive;
+    font-weight: normal;
+    font-size: 18px;
+    width: 50px;
+}
+
+
+
+#Registration {
+    border-radius: 7px;
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 350px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+}
+
+#legend {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: red;
+}
+
+a:hover,
+b {
+    color: red;
+}
+
+input[type="text"] {
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+input[type="number"] {
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+input[type="password"] {
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+input[type="email"] {
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+input[type="date"] {
+    border: 3px solid red;
+    border-radius: 7px;
+}
+
+input[type="radio"] {
+    accent-color: red;
+}
+
+select {
+    border-radius: 7px;
+    background: linear-gradient(to right, red, orange);
+}
+
+
+button {
+    border-radius: 7px;
+    background: linear-gradient(to right, red, orange);
+}
+
+#AboutMan-Utd li::before {
+    content: "⚽︎ ";
+}
+
+#PlayerInfo {
+    float: right;
+    margin-right: 590px;
+    border-color: rgb(126, 5, 5);
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, red, orange);
+}
+
+#Nationalitypics {
+    float: right;
+}
+
+#GK {
+    float: right;
+    margin-right: 650px;
+    border-color: rgb(181, 64, 228);
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, rgb(185, 94, 245), rgb(98, 247, 130));
+}
+
+fieldset {
+    border-radius: 35px;
+}
+
+#Contact {
+    box-shadow: 20px 20px 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 167px;
+    text-decoration: underline;
+    background-image: linear-gradient(to right, darkred, red, orangered, orange, yellow);
+    border-radius: 7px;
+}
